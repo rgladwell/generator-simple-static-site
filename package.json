@@ -1,0 +1,14 @@
+{
+  "name": "generator-simple-static-site",
+  "version": "0.1.0",
+  "description": "Simple static HTML site generator for Yeoman",
+  "main": "index.js",
+  "author": "Ricardo Gladwell <ricardo@gladwell.me>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.22.2"
+  }
+}
