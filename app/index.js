@@ -47,7 +47,7 @@ module.exports = generators.Base.extend({
 
       console.log("Creating static HTML site '" + this.title + "'...")
 
-      this.destinationRoot(this.project)
+      this.destinationRoot(this.project);
 
       this.install("index.html");
       this.install("package.json");
