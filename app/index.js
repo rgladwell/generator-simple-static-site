@@ -1,9 +1,11 @@
 'use strict';
 
 var generators = require('yeoman-generator');
+var project = require('../package.json');
 
 module.exports = generators.Base.extend({
   prompting: function () {
+    console.log("Running " + project.name + " v" + project.version + "...")
 
     function sanitiseSiteTitle(site) {
       return site.title.replace(/\s+/g, '-').toLowerCase();
