@@ -13,8 +13,11 @@
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-html5-validate": "^0.1.1",
     "grunt-npmcopy": "^0.1.0",
-    "grunt-sass": "^1.1.0"
+    "grunt-postcss": "^0.7.2",
+    "grunt-sass": "^1.1.0",
+    "stylelint": "^4.4.0"
   },
   "scripts": {
     "build": "grunt",
