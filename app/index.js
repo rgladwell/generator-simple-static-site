@@ -56,6 +56,7 @@ module.exports = generators.Base.extend({
       this.install("main.scss");
       this.install("Gruntfile.js");
       this.install("README.md");
+      this.install(".gitignore");
 
       this.directory("assets", this.destinationPath("assets"));
     }
