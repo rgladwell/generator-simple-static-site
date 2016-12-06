@@ -35,28 +35,16 @@ module.exports = generators.Base.extend({
 
   writing: {
     app: function () {
-
-      this.install = function install(source) {
-        this.fs.copyTpl(
-          this.templatePath(source),
-          this.destinationPath(source),
-          {
-            title   : this.title,
-            project : this.project
-          }
-        );
-      };
-
       console.log("Creating static HTML site '" + this.title + "'...")
 
       this.destinationRoot(this.project);
 
-      this.install("index.html");
-      this.install("package.json");
-      this.install("main.scss");
-      this.install("Gruntfile.js");
-      this.install("README.md");
-      this.install(".gitignore");
+      this.copy('index.html', 'index.html');
+      this.copy('package.json', 'package.json');
+      this.copy('main.scss', 'main.scss');
+      this.copy('Gruntfile.js', 'Gruntfile.js');
+      this.copy('README.md', 'README.md');
+      this.copy('gitignore', '.gitignore');
 
       this.directory("assets", this.destinationPath("assets"));
     }
