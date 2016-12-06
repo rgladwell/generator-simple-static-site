@@ -8,7 +8,7 @@ A simple, static HTML site generator for [Yeoman](http://yeoman.io) with the fol
   * CSS, Javascript and Image mini-fication
   * Livereload demo mode
 
-TO install and run:
+To install and run:
 
   1. [Install Yeoman](http://yeoman.io/learning/index.html)
   2. Install this generator by running `npm install -g generator-simple-static-site`
