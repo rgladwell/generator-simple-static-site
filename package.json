@@ -1,6 +1,6 @@
 {
   "name": "generator-simple-static-site",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Simple static HTML site generator for Yeoman",
   "main": "index.js",
   "author": "Ricardo Gladwell <ricardo@gladwell.me>",
